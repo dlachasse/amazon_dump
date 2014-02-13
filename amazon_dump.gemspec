@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = AmazonDump::VERSION
   spec.authors       = ["David La Chasse"]
   spec.email         = ["david.lachasse@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Dumps Amazon product data into local database from list of UPCs}
+  spec.summary       = %q{Amazon product dump}
   spec.homepage      = ""
   spec.license       = "MIT"
 
