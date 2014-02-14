@@ -1,5 +1,11 @@
-require "amazon_dump/version"
+require 'amazon_dump/version'
+require 'activerecord'
+require 'mws-rb'
+require 'rails-sqlserver'
+require_relative 'amazon_dump/api.rb'
 
 module AmazonDump
-  # Your code goes here...
+  def self.new(options={})
+    @connection = API.new(options)
+  end
 end
