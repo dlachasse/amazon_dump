@@ -4,3 +4,4 @@ source 'https://rubygems.org'
 gemspec
 gem 'activerecord'
 gem 'mws-rb', github: 'veeqo/mws-rb'
+gem 'rails-sqlserver', github: 'rails-sqlserver/activerecord-sqlserver-adapter'
